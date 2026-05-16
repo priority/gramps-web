@@ -16,7 +16,7 @@ export class GrampsjsViewPeople extends GrampsjsViewObjectsBase {
     this._columns = {
       grampsId: {title: 'Gramps ID', sort: 'gramps_id'},
       surname: {title: 'Surname', sort: 'surname'},
-      given: {title: 'Given name', sort: ''},
+      given: {title: 'Given name', sort: 'given'},
       birth: {title: 'Birth Date', sort: 'birth'},
       death: {title: 'Death Date', sort: 'death'},
       change: {title: 'Last changed', sort: 'change'},
